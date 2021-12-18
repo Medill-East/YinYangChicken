@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/VoxelAnimals/Demo/FullDemoScene.unity
+- path: Assets/_MyScenes/MyTestScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
