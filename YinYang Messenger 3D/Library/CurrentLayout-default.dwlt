@@ -16,6 +16,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 944
     y: -306
     width: 640
@@ -29,6 +30,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
     x: 689
     y: -832
     width: 800
@@ -40,6 +43,9 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4021}
   m_Maximized: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -127,6 +133,9 @@ MonoBehaviour:
   m_Maximized: 0
 --- !u!114 &3
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -149,6 +158,7 @@ MonoBehaviour:
     width: 644
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 233
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -166,6 +176,16 @@ MonoBehaviour:
   - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
+=======
+    height: 160
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 0
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
     height: 160
   m_MinSize: {x: 100, y: 100}
@@ -227,6 +247,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 35
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -282,7 +305,11 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 41
+=======
+  controlID: 17
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
   controlID: 17
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -366,6 +393,7 @@ MonoBehaviour:
     height: 985
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 708, y: 542}
   m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
@@ -373,11 +401,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
   m_MinSize: {x: 709, y: 542}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
   controlID: 128
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -419,7 +452,11 @@ MonoBehaviour:
   - {fileID: 16}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 5}
+=======
+  - {fileID: 3}
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
   - {fileID: 3}
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -437,7 +474,11 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 157
+=======
+  controlID: 129
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
   controlID: 129
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -522,8 +563,13 @@ MonoBehaviour:
   - {fileID: 25}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 19}
   - {fileID: 18}
+=======
+  - {fileID: 18}
+  - {fileID: 17}
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
   - {fileID: 18}
   - {fileID: 17}
@@ -563,6 +609,7 @@ MonoBehaviour:
 --- !u!114 &17
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -588,6 +635,8 @@ MonoBehaviour:
     height: 210
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
@@ -640,11 +689,17 @@ MonoBehaviour:
   m_PreviewAnimator: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnimatorController: {fileID: 9100000, guid: da87f0caf717cb746a640124438be23c,
     type: 2}
   m_BreadCrumbs:
   - m_Target: {fileID: 1107120585645382956, guid: da87f0caf717cb746a640124438be23c,
       type: 2}
+=======
+  m_AnimatorController: {fileID: 9100000, guid: 84dd067921f4e0045bb3a9a6e8fb7789, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 1107590955865506886, guid: 84dd067921f4e0045bb3a9a6e8fb7789, type: 2}
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
   m_AnimatorController: {fileID: 9100000, guid: 84dd067921f4e0045bb3a9a6e8fb7789, type: 2}
   m_BreadCrumbs:
@@ -669,7 +724,11 @@ MonoBehaviour:
     m_SelectedLayerIndex: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &19
+=======
+--- !u!114 &18
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 --- !u!114 &18
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -703,7 +762,11 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &20
+=======
+--- !u!114 &19
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 --- !u!114 &19
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -737,7 +800,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 --- !u!114 &20
@@ -766,6 +832,9 @@ MonoBehaviour:
     height: 787
   m_ViewDataDictionary: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -800,9 +869,15 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 6c490000
       m_LastClickedID: 0
       m_ExpandedIDs: 2283ffff1ceeffff12efffff52fbffff
+=======
+      m_SelectedIDs: c2b5fbff
+      m_LastClickedID: -281150
+      m_ExpandedIDs: 10b7fbffdab7fbff38bcfbff8abffbffe608fdff4c31fdff8041fdffda48fdff9a80fdff4c81fdffd284fdffda85fdff94befdff5ac3fdff2405feff0021feffe64bfeffd650feffea91feff1093feffd29afeff18bbfeff5ce6feffd0eafeffa8fdfeffea28ffff6842ffff3466ffff6078fffffe90ffff9494ffff3ebfffff5cfaffff923a0100ec99010008a701007cba010066fe0100
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
       m_SelectedIDs: c2b5fbff
       m_LastClickedID: -281150
@@ -915,7 +990,11 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Runemark Studio/Origami Pack/Scenes
+=======
+    - Assets/VoxelAnimals/Demo
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
     - Assets/VoxelAnimals/Demo
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -938,7 +1017,11 @@ MonoBehaviour:
     m_LastClickedID: 19398
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000b2480000b4480000b6480000b8480000ba480000bc480000be480000c0480000c2480000c4480000c6480000c8480000ca480000cc480000ce480000d0480000d2480000d4480000d6480000d8480000da480000dc480000de480000e0480000e2480000e4480000e6480000e8480000ea480000ec480000
+=======
+    m_ExpandedIDs: 
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
     m_ExpandedIDs: 
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -971,10 +1054,20 @@ MonoBehaviour:
   m_AssetTreeState:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 806.9995}
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff00000000b2480000b4480000b6480000b8480000ba480000bc480000be480000c0480000c2480000c4480000c6480000c8480000ca480000cc480000ce480000d0480000d2480000d4480000d6480000d8480000da480000dc480000de480000e0480000e2480000e4480000e6480000e8480000ea480000ec480000144900002c490000fa4b0000fc4b0000044c0000925c0000a85c0000cc5c0000d45c0000da5c0000dc5c0000de5c0000e25c0000ec5c0000f65c0000de770000047800009c79000006840000ffffff7f
+=======
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+    scrollPos: {x: 0, y: 581}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff8a6400000e6b0000000b0100c81301001a1401003c14010082140100fc1401000a1501005a3001005c3001003c4c0100404c0100444c01007c510100fa580100388d01003c8d0100428d0100e2c60100e8c60100ecc60100eec60100f2c60100aaca0100acca0100aeca0100b0ca0100
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
     scrollPos: {x: 0, y: 581}
     m_SelectedIDs: 
@@ -982,10 +1075,6 @@ MonoBehaviour:
     m_ExpandedIDs: ffffffff8a6400000e6b0000000b0100c81301001a1401003c14010082140100fc1401000a1501005a3001005c3001003c4c0100404c0100444c01007c510100fa580100388d01003c8d0100428d0100e2c60100e8c60100ecc60100eec60100f2c60100aaca0100acca0100aeca0100b0ca0100
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
-    scrollPos: {x: 0, y: 581}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff8a6400000e6b0000000b0100c81301001a1401003c14010082140100fc1401000a1501005a3001005c3001003c4c0100404c0100444c01007c510100fa580100388d01003c8d0100428d0100e2c60100e8c60100ecc60100eec60100f2c60100aaca0100acca0100aeca0100b0ca0100
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1040,8 +1129,13 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ScrollPosition: {x: 0, y: 2337}
     m_GridSize: 16
+=======
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
@@ -1181,9 +1275,15 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 20.577332, y: 29.020477, z: 50.16011}
     speed: 2
     m_Value: {x: 20.577332, y: 29.020477, z: 50.16011}
+=======
+    m_Target: {x: -0.5, y: 0.81379646, z: 1.34}
+    speed: 2
+    m_Value: {x: -0.5, y: 0.81379646, z: 1.34}
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
     m_Target: {x: -0.5, y: 0.81379646, z: 1.34}
     speed: 2
@@ -1242,6 +1342,7 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.20707497, y: 0.7712041, z: -0.30920428, w: 0.5164957}
     speed: 2
     m_Value: {x: 0.21455033, y: 0.7637233, z: -0.31421262, w: 0.5215029}
@@ -1249,6 +1350,18 @@ MonoBehaviour:
     m_Target: 130.23743
     speed: 2
     m_Value: 0.5420634
+=======
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+    m_Target: {x: 0.06844104, y: -0.075338416, z: -0.0051818383, w: -0.99479556}
+    speed: 2
+    m_Value: {x: 0.06844087, y: -0.07533823, z: -0.0051818253, w: -0.99479306}
+  m_Size:
+    m_Target: 1.4738376
+    speed: 2
+    m_Value: 1.4738376
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
     m_Target: {x: 0.06844104, y: -0.075338416, z: -0.0051818383, w: -0.99479556}
     speed: 2
@@ -1259,13 +1372,6 @@ MonoBehaviour:
     m_Value: 1.4738376
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
-    m_Target: {x: 0.06844104, y: -0.075338416, z: -0.0051818383, w: -0.99479556}
-    speed: 2
-    m_Value: {x: 0.06844087, y: -0.07533823, z: -0.0051818253, w: -0.99479306}
-  m_Size:
-    m_Target: 1.4738376
-    speed: 2
-    m_Value: 1.4738376
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
   m_Ortho:
     m_Target: 0
