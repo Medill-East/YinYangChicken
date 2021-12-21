@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 944
     y: -306
     width: 640
@@ -24,6 +25,18 @@ MonoBehaviour:
   m_MinSize: {x: 640, y: 231}
   m_MaxSize: {x: 640, y: 231}
   m_Maximized: 1
+=======
+    x: 689
+    y: -832
+    width: 800
+    height: 808
+  m_ShowMode: 0
+  m_Title: Package Manager
+  m_RootView: {fileID: 5}
+  m_MinSize: {x: 800, y: 271}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_Maximized: 0
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -39,10 +52,11 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: -336
-    y: -1034
+    y: -1035
     width: 1280
     height: 1035
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Project
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 592}
@@ -99,6 +113,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 1799
 --- !u!114 &5
+=======
+  m_Title: Inspector
+  m_RootView: {fileID: 8}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 0
+--- !u!114 &3
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,8 +136,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 752
+    y: 825
     width: 644
+<<<<<<< HEAD
     height: 233
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -124,6 +147,66 @@ MonoBehaviour:
   - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
+=======
+    height: 160
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: PackageManagerWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 800
+    height: 808
+  m_MinSize: {x: 800, y: 271}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 20}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 800
+    height: 808
+  m_MinSize: {x: 800, y: 271}
+  m_MaxSize: {x: 4000, y: 4021}
+  vertical: 0
+  controlID: 35
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -174,7 +257,11 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 41
+=======
+  controlID: 17
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,10 +337,17 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 985
+<<<<<<< HEAD
   m_MinSize: {x: 708, y: 542}
   m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
   controlID: 156
+=======
+  m_MinSize: {x: 709, y: 542}
+  m_MaxSize: {x: 18004, y: 14042}
+  vertical: 0
+  controlID: 128
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -290,7 +384,11 @@ MonoBehaviour:
   m_Children:
   - {fileID: 15}
   - {fileID: 16}
+<<<<<<< HEAD
   - {fileID: 5}
+=======
+  - {fileID: 3}
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
   m_Position:
     serializedVersion: 2
     x: 0
@@ -300,7 +398,11 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 542}
   m_MaxSize: {x: 4001, y: 12042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 157
+=======
+  controlID: 129
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -377,8 +479,13 @@ MonoBehaviour:
   m_ActualView: {fileID: 25}
   m_Panes:
   - {fileID: 25}
+<<<<<<< HEAD
   - {fileID: 19}
   - {fileID: 18}
+=======
+  - {fileID: 18}
+  - {fileID: 17}
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
   m_Selected: 0
   m_LastSelected: 2
 --- !u!114 &16
@@ -399,7 +506,7 @@ MonoBehaviour:
     x: 0
     y: 392
     width: 644
-    height: 360
+    height: 433
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 24}
@@ -408,6 +515,7 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &17
+<<<<<<< HEAD
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -433,6 +541,8 @@ MonoBehaviour:
     height: 210
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -461,7 +571,6 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 1107590955865506886, guid: 84dd067921f4e0045bb3a9a6e8fb7789, type: 2}
-    - {fileID: 1107120585645382956, guid: da87f0caf717cb746a640124438be23c, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.3779619
       e01: 0
@@ -479,28 +588,18 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
   m_PreviewAnimator: {fileID: 0}
+<<<<<<< HEAD
   m_AnimatorController: {fileID: 9100000, guid: da87f0caf717cb746a640124438be23c,
     type: 2}
   m_BreadCrumbs:
   - m_Target: {fileID: 1107120585645382956, guid: da87f0caf717cb746a640124438be23c,
       type: 2}
+=======
+  m_AnimatorController: {fileID: 9100000, guid: 84dd067921f4e0045bb3a9a6e8fb7789, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 1107590955865506886, guid: 84dd067921f4e0045bb3a9a6e8fb7789, type: 2}
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -513,7 +612,11 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
+<<<<<<< HEAD
 --- !u!114 &19
+=======
+--- !u!114 &18
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -539,7 +642,11 @@ MonoBehaviour:
     width: 643
     height: 371
   m_ViewDataDictionary: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &20
+=======
+--- !u!114 &19
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -561,10 +668,38 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: -336
-    y: -252
+    y: -180
     width: 643
-    height: 212
+    height: 139
   m_ViewDataDictionary: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13953, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 800, y: 250}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Package Manager
+    m_Image: {fileID: -2824328813065806953, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 689
+    y: -832
+    width: 800
+    height: 787
+  m_ViewDataDictionary: {fileID: 0}
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -587,16 +722,22 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 308
-    y: -1004
+    y: -1005
     width: 259
     height: 422
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 6c490000
       m_LastClickedID: 0
       m_ExpandedIDs: 2283ffff1ceeffff12efffff52fbffff
+=======
+      m_SelectedIDs: c2b5fbff
+      m_LastClickedID: -281150
+      m_ExpandedIDs: 10b7fbffdab7fbff38bcfbff8abffbffe608fdff4c31fdff8041fdffda48fdff9a80fdff4c81fdffd284fdffda85fdff94befdff5ac3fdff2405feff0021feffe64bfeffd650feffea91feff1093feffd29afeff18bbfeff5ce6feffd0eafeffa8fdfeffea28ffff6842ffff3466ffff6078fffffe90ffff9494ffff3ebfffff5cfaffff923a0100ec99010008a701007cba010066fe0100
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Canvas
@@ -642,7 +783,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 569
-    y: -1004
+    y: -1005
     width: 374
     height: 964
   m_ViewDataDictionary: {fileID: 0}
@@ -680,7 +821,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 308
-    y: -561
+    y: -562
     width: 259
     height: 521
   m_ViewDataDictionary: {fileID: 0}
@@ -697,22 +838,30 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Runemark Studio/Origami Pack/Scenes
+=======
+    - Assets/VoxelAnimals/Demo
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
-  m_StartGridSize: 16
+  m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/MedillEast/iCloud Drive (Archive)/Documents/Project/Github/repository/YinYangChicken/YinYang
-    Messenger 3D
+  m_LastProjectPath: /Users/MedillEast/iCloud Drive (Archive)/Documents/Project/Unity/Unity
+    Learn/YinYang Messenger 3D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: c64b0000
     m_LastClickedID: 19398
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000b2480000b4480000b6480000b8480000ba480000bc480000be480000c0480000c2480000c4480000c6480000c8480000ca480000cc480000ce480000d0480000d2480000d4480000d6480000d8480000da480000dc480000de480000e0480000e2480000e4480000e6480000e8480000ea480000ec480000
+=======
+    m_ExpandedIDs: 
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -737,24 +886,31 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 806.9995}
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff00000000b2480000b4480000b6480000b8480000ba480000bc480000be480000c0480000c2480000c4480000c6480000c8480000ca480000cc480000ce480000d0480000d2480000d4480000d6480000d8480000da480000dc480000de480000e0480000e2480000e4480000e6480000e8480000ea480000ec480000144900002c490000fa4b0000fc4b0000044c0000925c0000a85c0000cc5c0000d45c0000da5c0000dc5c0000de5c0000e25c0000ec5c0000f65c0000de770000047800009c79000006840000ffffff7f
+=======
+    scrollPos: {x: 0, y: 581}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff8a6400000e6b0000000b0100c81301001a1401003c14010082140100fc1401000a1501005a3001005c3001003c4c0100404c0100444c01007c510100fa580100388d01003c8d0100428d0100e2c60100e8c60100ecc60100eec60100f2c60100aaca0100acca0100aeca0100b0ca0100
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Toon Chicken
+      m_OriginalName: Toon Chicken
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 85164
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
@@ -792,8 +948,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
+<<<<<<< HEAD
     m_ScrollPosition: {x: 0, y: 2337}
     m_GridSize: 16
+=======
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110
 --- !u!114 &24
@@ -818,9 +979,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: -336
-    y: -612
+    y: -613
     width: 643
-    height: 339
+    height: 412
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -828,7 +989,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 643, y: 318}
+  m_TargetSize: {x: 643, y: 391}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -845,8 +1006,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -321.5
     m_HBaseRangeMax: 321.5
-    m_VBaseRangeMin: -159
-    m_VBaseRangeMax: 159
+    m_VBaseRangeMin: -195.5
+    m_VBaseRangeMax: 195.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -865,9 +1026,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 643
-      height: 318
+      height: 391
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 321.5, y: 159}
+    m_Translation: {x: 321.5, y: 195.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -875,12 +1036,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -321.5
-      y: -159
+      y: -195.5
       width: 643
-      height: 318
+      height: 391
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 643, y: 339}
+  m_LastWindowPixelSize: {x: 643, y: 412}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -908,7 +1069,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: -336
-    y: -1004
+    y: -1005
     width: 643
     height: 371
   m_ViewDataDictionary: {fileID: 0}
@@ -923,9 +1084,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 20.577332, y: 29.020477, z: 50.16011}
     speed: 2
     m_Value: {x: 20.577332, y: 29.020477, z: 50.16011}
+=======
+    m_Target: {x: -0.5, y: 0.81379646, z: 1.34}
+    speed: 2
+    m_Value: {x: -0.5, y: 0.81379646, z: 1.34}
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -972,6 +1139,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.20707497, y: 0.7712041, z: -0.30920428, w: 0.5164957}
     speed: 2
     m_Value: {x: 0.21455033, y: 0.7637233, z: -0.31421262, w: 0.5215029}
@@ -979,6 +1147,15 @@ MonoBehaviour:
     m_Target: 130.23743
     speed: 2
     m_Value: 0.5420634
+=======
+    m_Target: {x: 0.06844104, y: -0.075338416, z: -0.0051818383, w: -0.99479556}
+    speed: 2
+    m_Value: {x: 0.06844087, y: -0.07533823, z: -0.0051818253, w: -0.99479306}
+  m_Size:
+    m_Target: 1.4738376
+    speed: 2
+    m_Value: 1.4738376
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
   m_Ortho:
     m_Target: 0
     speed: 2

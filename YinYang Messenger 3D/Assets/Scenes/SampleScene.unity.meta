@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 2cda990e2423bbf4892e6590ba056729
+=======
+guid: d1c3109bdb54ad54c8a2b2838528e640
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 DefaultImporter:
   externalObjects: {}
   userData: 

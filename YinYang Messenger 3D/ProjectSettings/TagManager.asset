@@ -3,8 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags:
   - TutorialRequirement
+=======
+  tags: []
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
   layers:
   - Default
   - TransparentFX
