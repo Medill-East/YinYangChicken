@@ -23,11 +23,19 @@ AssetImportWorker0
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 49458
 Successfully changed project path to: /Users/MedillEast/iCloud Drive (Archive)/Documents/Project/Github/repository/YinYangChicken/YinYang Messenger 3D
 /Users/MedillEast/iCloud Drive (Archive)/Documents/Project/Github/repository/YinYangChicken/YinYang Messenger 3D
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 67.71 ms, found 2 plugins.
+=======
+62469
+Successfully changed project path to: /Users/MedillEast/iCloud Drive (Archive)/Documents/Project/Unity/Unity Learn/YinYang Messenger 3D
+/Users/MedillEast/iCloud Drive (Archive)/Documents/Project/Unity/Unity Learn/YinYang Messenger 3D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 60.94 ms, found 2 plugins.
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 62469
 Successfully changed project path to: /Users/MedillEast/iCloud Drive (Archive)/Documents/Project/Unity/Unity Learn/YinYang Messenger 3D
@@ -41,15 +49,21 @@ Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path /Users/MedillEast/iCloud Drive (Archive)/Documents/Project/Unity/Unity Learn/YinYang Messenger 3D/Assets
 GfxDevice: creating device client; threaded=0
 <<<<<<< HEAD
+<<<<<<< HEAD
 2021-12-21 00:42:54.308 Unity[60108:4407774] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
 2021-12-21 00:42:54.308 Unity[60108:4407774] Metal devices available: 1
 2021-12-21 00:42:54.308 Unity[60108:4407774] 0: Intel(R) Iris(TM) Plus Graphics (low power)
 2021-12-21 00:42:54.309 Unity[60108:4407774] Using device Intel(R) Iris(TM) Plus Graphics (low power)
 =======
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 2021-12-16 01:21:46.535 Unity[17327:283318] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
 2021-12-16 01:21:46.535 Unity[17327:283318] Metal devices available: 1
 2021-12-16 01:21:46.535 Unity[17327:283318] 0: Intel(R) Iris(TM) Plus Graphics (low power)
 2021-12-16 01:21:46.536 Unity[17327:283318] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Initialize mono
@@ -57,7 +71,11 @@ Mono path[0] = '/Applications/Unity/2020.3.21f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/2020.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/2020.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
 <<<<<<< HEAD
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56327
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56327
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -66,6 +84,7 @@ Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/2020.3.21f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/2020.3.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/2020.3.21f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.004800 seconds.
 Native extension for WindowsStandalone target not found
@@ -79,6 +98,8 @@ Domain Reload Profiling:
 	ReloadAssembly (3399ms)
 		BeginReloadAssembly (57ms)
 =======
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 Registered in 0.006822 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -90,12 +111,16 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (4908ms)
 		BeginReloadAssembly (46ms)
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		EndReloadAssembly (586ms)
 			LoadAssemblies (60ms)
@@ -122,10 +147,25 @@ Domain Reload Profiling:
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
+=======
+		EndReloadAssembly (705ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 				RefreshPlugins (68ms)
 				BeforeProcessingInitializeOnLoad (41ms)
 				ProcessInitializeOnLoadAttributes (145ms)
 				ProcessInitializeOnLoadMethodAttributes (39ms)
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -134,7 +174,11 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 Registered in 0.010738 seconds.
+=======
+Registered in 0.010715 seconds.
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 Registered in 0.010715 seconds.
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -142,6 +186,7 @@ Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 77.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -159,11 +204,21 @@ Domain Reload Profiling:
 	ReloadAssembly (1589ms)
 		BeginReloadAssembly (187ms)
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
+Refreshing native plugins compatible for Editor in 66.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.587 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1589ms)
+		BeginReloadAssembly (187ms)
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (37ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		EndReloadAssembly (1335ms)
 			LoadAssemblies (121ms)
@@ -191,6 +246,11 @@ Upgrading shader files ...0.014630 seconds.
 		EndReloadAssembly (1327ms)
 			LoadAssemblies (179ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
+=======
+		EndReloadAssembly (1327ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 			SetupTypeCache (459ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (68ms)
@@ -210,6 +270,9 @@ Platform modules already initialized, skipping
 Validating Project structure ... 0.002669 seconds.
 Shader import version has changed; will reimport all shaders...
 Upgrading shader files ...0.003371 seconds.
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
@@ -225,6 +288,7 @@ Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2808 Unused Serialized files (Serialized files now loaded: 0)
@@ -234,6 +298,8 @@ System memory in use after: 244.8 MB.
 Unloading 124 unused Assets to reduce memory usage. Loaded Objects now: 3286.
 Total: 3.861370 ms (FindLiveObjects: 0.330082 ms CreateObjectMapping: 0.111623 ms MarkObjects: 3.186445 ms  DeleteObjects: 0.231805 ms)
 =======
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2803 Unused Serialized files (Serialized files now loaded: 0)
@@ -242,6 +308,9 @@ System memory in use after: 240.9 MB.
 
 Unloading 119 unused Assets to reduce memory usage. Loaded Objects now: 3274.
 Total: 3.296033 ms (FindLiveObjects: 0.251309 ms CreateObjectMapping: 0.106800 ms MarkObjects: 2.713798 ms  DeleteObjects: 0.222969 ms)
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -257,15 +326,19 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Import Request.
 <<<<<<< HEAD
+<<<<<<< HEAD
   path: Assets/_MyScenes/MyTestScene.unity
   artifactKey: Guid(6f4aa3c2edb784e30b7b26eaf9dca985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/_MyScenes/MyTestScene.unity using Guid(6f4aa3c2edb784e30b7b26eaf9dca985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a41d604eb9ddee95cb6c33dffcdbb9') in 0.016026 seconds 
   Import took 0.024904 seconds .
 =======
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
   path: Assets/SimpleNaturePack/SimpleNaturePack_URP_2019.3.unitypackage
   artifactKey: Guid(d504c149f8ea1714d83d6d405de4e157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/SimpleNaturePack/SimpleNaturePack_URP_2019.3.unitypackage using Guid(d504c149f8ea1714d83d6d405de4e157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c14f085a082208a507bbf37de6d150') in 0.026141 seconds 
   Import took 0.037612 seconds .
+<<<<<<< HEAD
 
 ========================================================================
 Received Import Request.
@@ -462,18 +535,223 @@ Start importing Assets/Meshtint Free Chicken Mega Toon Series/Animations/Toon Ch
 
 ========================================================================
 Received Import Request.
+=======
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.103592 seconds.
+  path: Assets/SimpleNaturePack/SimpleNaturePack_LWRP_2018.4.unitypackage
+  artifactKey: Guid(b8065bad1ff274b42ba313442b4cd7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/SimpleNaturePack_LWRP_2018.4.unitypackage using Guid(b8065bad1ff274b42ba313442b4cd7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa7a3b3219bd735e89aeb939a395fb9') in 0.003028 seconds 
+  Import took 0.009433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.731317 seconds.
+  path: Assets/SimpleNaturePack/SimpleNaturePack_HDRP_2018.4.unitypackage
+  artifactKey: Guid(5b9bfd9e428a3e443a66c361f3675f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/SimpleNaturePack_HDRP_2018.4.unitypackage using Guid(5b9bfd9e428a3e443a66c361f3675f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e08fc21eb80ed661547c1fed177d73c') in 0.002601 seconds 
+  Import took 0.008980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.227226 seconds.
+  path: Assets/low poly pack/scene/Demo1.unity
+  artifactKey: Guid(c4fd6c739f0dfbb48ac72a7e5b8c84c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/scene/Demo1.unity using Guid(c4fd6c739f0dfbb48ac72a7e5b8c84c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8212a4e9b242e0a811d49d6971583a') in 0.004048 seconds 
+  Import took 0.012679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.995691 seconds.
+  path: Assets/low poly pack/scene/Demo2.unity
+  artifactKey: Guid(7fffaa43f90043a49ac555a4cde2f397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/scene/Demo2.unity using Guid(7fffaa43f90043a49ac555a4cde2f397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f277aec69731eedef87bbe434d37fc') in 0.002158 seconds 
+  Import took 0.008692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.618660 seconds.
+  path: Assets/low poly pack/scene/Demo3.unity
+  artifactKey: Guid(b71a89b722f2ed0458f739135c44f7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/scene/Demo3.unity using Guid(b71a89b722f2ed0458f739135c44f7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd253f68c337c738614bc970615ca4e7a') in 0.002501 seconds 
+  Import took 0.009374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.169269 seconds.
+  path: Assets/low poly pack/scene/Demo4.unity
+  artifactKey: Guid(6c9ca2a0b815a3f4fbdefa36507fb0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/scene/Demo4.unity using Guid(6c9ca2a0b815a3f4fbdefa36507fb0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8532a7ecc5775af880e13609f9574a') in 0.002665 seconds 
+  Import took 0.009672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.602381 seconds.
+  path: Assets/low poly pack/scene/Demo1Settings.lighting
+  artifactKey: Guid(2ba31960505ed43e7a72b5a170a36dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/scene/Demo1Settings.lighting using Guid(2ba31960505ed43e7a72b5a170a36dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'b87adeae9f814212614297cd1dd56ebe') in 0.315897 seconds 
+  Import took 0.321125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.606263 seconds.
+  path: Assets/low poly pack/Odject/Collapsible house.prefab
+  artifactKey: Guid(e7bf7a1e5aeb9c24c85f488b9bc63df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Odject/Collapsible house.prefab using Guid(e7bf7a1e5aeb9c24c85f488b9bc63df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfab40f1c7c95c6fb26bc838f52a157') in 0.556380 seconds 
+  Import took 0.561928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.570907 seconds.
+  path: Assets/low poly pack/Odject/Construction.prefab
+  artifactKey: Guid(a3b2c2825e024e14c8709a1226383665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Odject/Construction.prefab using Guid(a3b2c2825e024e14c8709a1226383665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e6b59dbdbdba33ea3f18f480faac92') in 0.017468 seconds 
+  Import took 0.022709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.987618 seconds.
+  path: Assets/low poly pack/Odject/Construction1.prefab
+  artifactKey: Guid(d832a3f9ac51c37479027671c73b69fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Odject/Construction1.prefab using Guid(d832a3f9ac51c37479027671c73b69fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebd04f7deacbb98cf82eaf05f5ce562') in 0.014356 seconds 
+  Import took 0.020248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.484081 seconds.
+  path: Assets/low poly pack/Odject/Construction9.prefab
+  artifactKey: Guid(d27537491d5bca24ba5cf29a1690c393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Odject/Construction9.prefab using Guid(d27537491d5bca24ba5cf29a1690c393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce49ec14e251217c136037ba0f781b6c') in 0.017167 seconds 
+  Import took 0.022530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.334999 seconds.
+  path: Assets/low poly pack/Odject/Construction7.prefab
+  artifactKey: Guid(8f16f151ac6210545b8350317455aaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Odject/Construction7.prefab using Guid(8f16f151ac6210545b8350317455aaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f65781884cdf1fd097a4cd08743adc7') in 0.017505 seconds 
+  Import took 0.024968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.297635 seconds.
+  path: Assets/low poly pack/Odject/Construction16.prefab
+  artifactKey: Guid(1a1a3834bfabe524998b6840c9f467dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Odject/Construction16.prefab using Guid(1a1a3834bfabe524998b6840c9f467dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60316f07e4f5209668761cf8a2b13d1e') in 0.014465 seconds 
+  Import took 0.019960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.644222 seconds.
+  path: Assets/low poly pack/Odject/Construction10.prefab
+  artifactKey: Guid(ce10dbf4bb43d6e4099cdc46935b4766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Odject/Construction10.prefab using Guid(ce10dbf4bb43d6e4099cdc46935b4766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30645b452cde8dc36c53466eb1aa4ee0') in 0.014890 seconds 
+  Import took 0.020794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.387375 seconds.
+  path: Assets/low poly pack/Odject/Construction17.prefab
+  artifactKey: Guid(38cca885a751fae49a8eba90da136e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Odject/Construction17.prefab using Guid(38cca885a751fae49a8eba90da136e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebc0b4cd5f6e0b5054419cb7d314f8f') in 0.013668 seconds 
+  Import took 0.019978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.581031 seconds.
+  path: Assets/LowPolyFarmLite/LowPolyFarmLite_URP.unitypackage
+  artifactKey: Guid(d615feb22ee21274bbe2b5c037bd9d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/LowPolyFarmLite_URP.unitypackage using Guid(d615feb22ee21274bbe2b5c037bd9d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb566f4f24134ec305f941d4f91fce2f') in 0.002277 seconds 
+  Import took 0.008881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.647399 seconds.
+  path: Assets/LowPolyFarmLite/Scenes/LowPolyFarmLite_Demo.unity
+  artifactKey: Guid(02b22eabe90848144a0d8977d339b3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Scenes/LowPolyFarmLite_Demo.unity using Guid(02b22eabe90848144a0d8977d339b3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5175d82d2b5b37a7d09e0febafa8abbc') in 0.002202 seconds 
+  Import took 0.008175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.669529 seconds.
+  path: Assets/LowPolyFarmLite/Scenes/LowPolyFarmLite_Overview.unity
+  artifactKey: Guid(0d213542539e07e42a778fc738e204f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Scenes/LowPolyFarmLite_Overview.unity using Guid(0d213542539e07e42a778fc738e204f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b869196e2407284a932f5e888ce5c0de') in 0.002002 seconds 
+  Import took 0.008426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 257.184216 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Preview/Preview.ai
+  artifactKey: Guid(c0d75160fab977340b0a29c9f6a18536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Preview/Preview.ai using Guid(c0d75160fab977340b0a29c9f6a18536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adf32c5a6d734f18a43ccbcd6be5850') in 0.853561 seconds 
+  Import took 0.859703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.678871 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Demo/Demo.unity
+  artifactKey: Guid(c141d24673958bb44b780d361745cca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Demo/Demo.unity using Guid(c141d24673958bb44b780d361745cca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b8e2f505f2b10ec0648611a48b4523') in 0.001818 seconds 
+  Import took 0.008041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.900301 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Scenes/Demo_01.unity
+  artifactKey: Guid(164fc101ab8f1584d9f3f9772734e457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Scenes/Demo_01.unity using Guid(164fc101ab8f1584d9f3f9772734e457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89685461b1d93f22a161b6d255a16bb') in 0.002051 seconds 
+  Import took 0.008250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.647895 seconds.
+  path: Assets/low poly pack/scene/Demo1.unity
+  artifactKey: Guid(c4fd6c739f0dfbb48ac72a7e5b8c84c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/scene/Demo1.unity using Guid(c4fd6c739f0dfbb48ac72a7e5b8c84c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381e6fe5db663a510137bc7fae83a55a') in 0.002920 seconds 
+  Import took 0.012911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.234345 seconds.
+  path: Assets/low poly pack/scene/Demo2.unity
+  artifactKey: Guid(7fffaa43f90043a49ac555a4cde2f397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/scene/Demo2.unity using Guid(7fffaa43f90043a49ac555a4cde2f397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af03b05c9bbac4010f8b6e0a8acf38ed') in 0.003274 seconds 
+  Import took 0.014109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.210871 seconds.
+  path: Assets/Meshtint Free Chicken Mega Toon Series/Animations/Toon Chicken.controller
+  artifactKey: Guid(84dd067921f4e0045bb3a9a6e8fb7789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Chicken Mega Toon Series/Animations/Toon Chicken.controller using Guid(84dd067921f4e0045bb3a9a6e8fb7789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac1515ec8447fac324f1bab8dc2cbba') in 0.186965 seconds 
+  Import took 0.192871 seconds .
+
+========================================================================
+Received Import Request.
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
   Time since last request: 36.156266 seconds.
   path: Assets/Meshtint Free Chicken Mega Toon Series/READ ME/Meshtint Mega Toon Series Read Me .pdf
   artifactKey: Guid(cab8a7ba10c70e946ac60b1efc2058d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Meshtint Free Chicken Mega Toon Series/READ ME/Meshtint Mega Toon Series Read Me .pdf using Guid(cab8a7ba10c70e946ac60b1efc2058d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f498748e307e0c9dbfdbd361b97549') in 0.861294 seconds 
   Import took 0.866976 seconds .
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 Registered in 0.003704 seconds.
+=======
+Registered in 0.006052 seconds.
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 Registered in 0.006052 seconds.
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -481,6 +759,7 @@ Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -517,16 +796,37 @@ Domain Reload Profiling:
 		EndReloadAssembly (1203ms)
 			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
+=======
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1468ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (1203ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 			SetupTypeCache (433ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (58ms)
 			SetupLoadedEditorAssemblies (384ms)
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (132ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 				ProcessInitializeOnLoadAttributes (255ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
@@ -549,6 +849,13 @@ Total: 3.625447 ms (FindLiveObjects: 0.257192 ms CreateObjectMapping: 0.091030 m
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
+=======
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
@@ -559,6 +866,9 @@ System memory in use after: 260.7 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3326.
 Total: 3.401373 ms (FindLiveObjects: 0.241676 ms CreateObjectMapping: 0.104624 ms MarkObjects: 3.030723 ms  DeleteObjects: 0.023122 ms)
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -575,7 +885,11 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 Registered in 0.002085 seconds.
+=======
+Registered in 0.005895 seconds.
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 Registered in 0.005895 seconds.
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
@@ -583,6 +897,7 @@ Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -592,6 +907,8 @@ Domain Reload Profiling:
 	ReloadAssembly (1485ms)
 		BeginReloadAssembly (145ms)
 =======
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -599,11 +916,15 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1510ms)
 		BeginReloadAssembly (147ms)
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (77ms)
 		EndReloadAssembly (1256ms)
@@ -634,6 +955,20 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
+=======
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (1286ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (460ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 				BeforeProcessingInitializeOnLoad (145ms)
 				ProcessInitializeOnLoadAttributes (250ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
@@ -644,6 +979,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
@@ -653,6 +989,8 @@ System memory in use after: 237.9 MB.
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3291.
 Total: 3.321641 ms (FindLiveObjects: 0.237052 ms CreateObjectMapping: 0.084204 ms MarkObjects: 2.975388 ms  DeleteObjects: 0.023854 ms)
 =======
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
@@ -661,6 +999,9 @@ System memory in use after: 261.1 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3330.
 Total: 3.859131 ms (FindLiveObjects: 0.243924 ms CreateObjectMapping: 0.097985 ms MarkObjects: 3.491825 ms  DeleteObjects: 0.024073 ms)
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -704,6 +1045,33 @@ Start importing Assets/Easy Primitive Animals using Guid(1c318b3069e9f4e6994af5f
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
+=======
+  Time since last request: 390.073439 seconds.
+  path: Assets/Easy Primitive Animals/FarmEdition/Scenes/PrimitiveAnimalsDemoScene1.unity
+  artifactKey: Guid(adc80317f90b1e64e93f3256c220ab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive Animals/FarmEdition/Scenes/PrimitiveAnimalsDemoScene1.unity using Guid(adc80317f90b1e64e93f3256c220ab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7517484d83ea916f085e6aa0af898f2a') in 0.012375 seconds 
+  Import took 0.018539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.506624 seconds.
+  path: Assets/BayatGames
+  artifactKey: Guid(6d4466e4157fe4adb95437ea457627cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames using Guid(6d4466e4157fe4adb95437ea457627cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c50bcff595476897e48b32d7c3cc33a') in 0.001855 seconds 
+  Import took 0.008452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.626085 seconds.
+  path: Assets/Easy Primitive Animals
+  artifactKey: Guid(1c318b3069e9f4e6994af5fc32e66153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive Animals using Guid(1c318b3069e9f4e6994af5fc32e66153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f2ac83cc9d8603a0028c0e02149fc0') in 0.001939 seconds 
+  Import took 0.010501 seconds .
+
+========================================================================
+Received Import Request.
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
   Time since last request: 0.434178 seconds.
   path: Assets/_Gloomy_Animal
   artifactKey: Guid(d13c70367da8947cfa9621a6e000b9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -730,11 +1098,15 @@ Start importing Assets/BayatGames/Free Platform Game Assets/Demo/Demo.unity usin
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.004724 seconds.
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -744,6 +1116,8 @@ Domain Reload Profiling:
 	ReloadAssembly (1484ms)
 		BeginReloadAssembly (177ms)
 =======
+=======
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -751,11 +1125,15 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (3037ms)
 		BeginReloadAssembly (247ms)
+<<<<<<< HEAD
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (100ms)
 		EndReloadAssembly (1226ms)
@@ -815,6 +1193,35 @@ System memory in use after: 261.3 MB.
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3330.
 Total: 5.910235 ms (FindLiveObjects: 0.528568 ms CreateObjectMapping: 0.188984 ms MarkObjects: 5.155884 ms  DeleteObjects: 0.034908 ms)
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
+			CreateAndSetChildDomain (142ms)
+		EndReloadAssembly (2628ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (955ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (812ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (265ms)
+				ProcessInitializeOnLoadAttributes (515ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2688 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.1 MB.
+System memory in use after: 261.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3330.
+Total: 5.910235 ms (FindLiveObjects: 0.528568 ms CreateObjectMapping: 0.188984 ms MarkObjects: 5.155884 ms  DeleteObjects: 0.034908 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -828,6 +1235,242 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  Time since last request: 35.584002 seconds.
+  path: Assets/low poly pack
+  artifactKey: Guid(492e6d370dffa42e7912635423cbfe51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack using Guid(492e6d370dffa42e7912635423cbfe51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6185fd08108aa54a830a80220f02ea4') in 0.007789 seconds 
+  Import took 0.015453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.322835 seconds.
+  path: Assets/Playground Low Poly/Maps
+  artifactKey: Guid(f12136fc71588a14aabd42f9df95c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playground Low Poly/Maps using Guid(f12136fc71588a14aabd42f9df95c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c46472bdc9eb3cf80a261932bcb0c3') in 0.001873 seconds 
+  Import took 0.009094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.778369 seconds.
+  path: Assets/Playground Low Poly/Maps/Demo.unity
+  artifactKey: Guid(b0de0711692b843459ecac0863bcc297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playground Low Poly/Maps/Demo.unity using Guid(b0de0711692b843459ecac0863bcc297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8009f6c71c11c1aba8ff21595731299e') in 0.009943 seconds 
+  Import took 0.015855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.636257 seconds.
+  path: Assets/Pure Poly
+  artifactKey: Guid(327ccc227a93f4bbca155671572150df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly using Guid(327ccc227a93f4bbca155671572150df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5ab98b6ffc95ee6771189f59f0fe82') in 0.002090 seconds 
+  Import took 0.011244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.418328 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7c01bc8ed57adf1ede3d700e613d7f') in 0.002190 seconds 
+  Import took 0.009689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.274774 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Branch_01.prefab
+  artifactKey: Guid(b9de24523a11d714db3851b5f0f9d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Branch_01.prefab using Guid(b9de24523a11d714db3851b5f0f9d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431606b57b0cbb123213ebdf5003528b') in 0.315734 seconds 
+  Import took 0.322264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.900164 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Bush_01.prefab
+  artifactKey: Guid(3cdafb3c2f54d434894928d72d282874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Bush_01.prefab using Guid(3cdafb3c2f54d434894928d72d282874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd1f149e08b45f6e90e4300c7a71d06') in 0.011882 seconds 
+  Import took 0.018526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.737202 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Grass_01.prefab
+  artifactKey: Guid(f1fc5bb90ac285e4486771552d63bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Grass_01.prefab using Guid(f1fc5bb90ac285e4486771552d63bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc2641dbf69063ad968fe57396b5562') in 0.013503 seconds 
+  Import took 0.019346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.721432 seconds.
+  path: Assets/ExampleAssets/Materials
+  artifactKey: Guid(ffd318dbb37362c4f8d87863d082b2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials using Guid(ffd318dbb37362c4f8d87863d082b2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c827434803c10ce0ff8cbab2830a63c') in 0.002136 seconds 
+  Import took 0.008492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.387998 seconds.
+  path: Assets/_Gloomy_Animal/Meshs/Chicken.FBX
+  artifactKey: Guid(555450ad5876a1b4a87f02765f03e159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Gloomy_Animal/Meshs/Chicken.FBX using Guid(555450ad5876a1b4a87f02765f03e159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1327fdd24ebe2391d4106890b8ddf9') in 0.684799 seconds 
+  Import took 0.690079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003858 seconds.
+  path: Assets/_Gloomy_Animal/Animations/Chicken@move.FBX
+  artifactKey: Guid(45ef955cc90b2c746a79a865017c51d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Gloomy_Animal/Animations/Chicken@move.FBX using Guid(45ef955cc90b2c746a79a865017c51d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8c7d192a2e9968e1497d4fe3b89b82') in 0.016106 seconds 
+  Import took 0.023513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Meshtint Free Chicken Mega Toon Series/Materials/Mega Toon Chicken.mat
+  artifactKey: Guid(e41f42f5e81b018479b0091156c9ecc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Chicken Mega Toon Series/Materials/Mega Toon Chicken.mat using Guid(e41f42f5e81b018479b0091156c9ecc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6520c7cf247672d6d3fa61c6663db8') in 0.225300 seconds 
+  Import took 0.230616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003413 seconds.
+  path: Assets/Meshtint Free Chicken Mega Toon Series/PPP/Chicken.asset
+  artifactKey: Guid(49a324a3a99f02844aadd9426055fee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Chicken Mega Toon Series/PPP/Chicken.asset using Guid(49a324a3a99f02844aadd9426055fee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a33b74dfb0a930cc36c503724c98b0') in 0.170664 seconds 
+  Import took 0.177604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003846 seconds.
+  path: Assets/_Gloomy_Animal/Meshs/Chicken.prefab
+  artifactKey: Guid(af68f6ffff31ff64c93521a587d234b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Gloomy_Animal/Meshs/Chicken.prefab using Guid(af68f6ffff31ff64c93521a587d234b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0e59b789f92929a0dc5c762d190183') in 0.024361 seconds 
+  Import took 0.031121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/_Gloomy_Animal/Meshs/Materials/Chicken.mat
+  artifactKey: Guid(e028095b335e7af4883cd903410737ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Gloomy_Animal/Meshs/Materials/Chicken.mat using Guid(e028095b335e7af4883cd903410737ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28c3fb28a5c115e07220887491beda9') in 0.017884 seconds 
+  Import took 0.022906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000722 seconds.
+  path: Assets/Meshtint Free Chicken Mega Toon Series/Textures/Mega Toon Chicken.psd
+  artifactKey: Guid(62d99c54b7546394db933131ab5bfe62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Chicken Mega Toon Series/Textures/Mega Toon Chicken.psd using Guid(62d99c54b7546394db933131ab5bfe62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d25b6af616fa12349116b0eb71f838') in 0.587836 seconds 
+  Import took 0.595049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005107 seconds.
+  path: Assets/_Gloomy_Animal/Meshs/Textures/Chicken.png
+  artifactKey: Guid(e547b28e5e153fe44b3e55cecf6bdcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Gloomy_Animal/Meshs/Textures/Chicken.png using Guid(e547b28e5e153fe44b3e55cecf6bdcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc42a67281d53c45950a61a7be8d0000') in 0.603300 seconds 
+  Import took 0.611847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.381551 seconds.
+  path: Assets/low poly pack/Wolf/wolf_lod_0.prefab
+  artifactKey: Guid(6df978a1d3461704a99decb73f8e47e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Wolf/wolf_lod_0.prefab using Guid(6df978a1d3461704a99decb73f8e47e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577a867d970058f6f8525f3793641092') in 0.404016 seconds 
+  Import took 0.409591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/low poly pack/Wolf/wolf_lod_1.prefab
+  artifactKey: Guid(d21b80ef06f766749a94fd790d4b4e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Wolf/wolf_lod_1.prefab using Guid(d21b80ef06f766749a94fd790d4b4e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ec931cf50e06f074158f8179504af0') in 0.020547 seconds 
+  Import took 0.025729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/low poly pack/Wolf/wolf_lod_2.prefab
+  artifactKey: Guid(a06d7f5a029c2774ebcff52e22d3d1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Wolf/wolf_lod_2.prefab using Guid(a06d7f5a029c2774ebcff52e22d3d1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41f3d2bb553ffb9bceb6f60c1f8d971') in 0.023589 seconds 
+  Import took 0.030455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/low poly pack/Wolf/Wolf_low_poly.fbx
+  artifactKey: Guid(e3a99f26c39bfe54dbf3a09dcac2a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Wolf/Wolf_low_poly.fbx using Guid(e3a99f26c39bfe54dbf3a09dcac2a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f179163de540e1d98bd7102e3235545b') in 0.242181 seconds 
+  Import took 0.248364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004297 seconds.
+  path: Assets/low poly pack/Wolf/wolf_lod_3.prefab
+  artifactKey: Guid(91853b28782f80341b802cd490c58bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low poly pack/Wolf/wolf_lod_3.prefab using Guid(91853b28782f80341b802cd490c58bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f75ca4bcb1df8a23a495d56399e954') in 0.019255 seconds 
+  Import took 0.025206 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005335 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.206 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2206ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1966ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (674ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (676ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (214ms)
+				ProcessInitializeOnLoadAttributes (426ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 300.7 MB.
+System memory in use after: 300.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3409.
+Total: 6.979904 ms (FindLiveObjects: 0.823032 ms CreateObjectMapping: 0.349044 ms MarkObjects: 5.752992 ms  DeleteObjects: 0.051855 ms)
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+<<<<<<< HEAD
   Time since last request: 35.584002 seconds.
   path: Assets/low poly pack
   artifactKey: Guid(492e6d370dffa42e7912635423cbfe51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1183,10 +1826,71 @@ Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.004127 seconds.
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
+  Time since last request: 185.155593 seconds.
+  path: Assets/Runemark Studio/Origami Pack/Scenes/DemoScene.unity
+  artifactKey: Guid(13103e1b8f3c93d4a9f3f5202e301db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Origami Pack/Scenes/DemoScene.unity using Guid(13103e1b8f3c93d4a9f3f5202e301db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbefd54a55ad1c3bb11733cc36da4111') in 0.012943 seconds 
+  Import took 0.018886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.246668 seconds.
+  path: Assets/Runemark Studio/Origami Pack/Prefabs/Dog.prefab
+  artifactKey: Guid(821bdb56c4110c841816df2632335cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Origami Pack/Prefabs/Dog.prefab using Guid(821bdb56c4110c841816df2632335cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bf7a79bbdcb3f6c01870beb76ecbab') in 0.139777 seconds 
+  Import took 0.144644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Runemark Studio/Origami Pack/Meshes/Origami_All.obj
+  artifactKey: Guid(799f653f08c90c94c8b0126557609836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Origami Pack/Meshes/Origami_All.obj using Guid(799f653f08c90c94c8b0126557609836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857a739df761268ef85a5edc0e4658df') in 2.421819 seconds 
+  Import took 2.427229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005894 seconds.
+  path: Assets/VoxelAnimals/Assets/Prefabs/Dog.prefab
+  artifactKey: Guid(7451ef01e53127446b9d7406220542f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelAnimals/Assets/Prefabs/Dog.prefab using Guid(7451ef01e53127446b9d7406220542f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81925a4b31dcec44ac85b8b9fb132de4') in 0.026973 seconds 
+  Import took 0.033235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/VoxelAnimals/Assets/Models/Dog.fbx
+  artifactKey: Guid(23087f4be52d60c488a49d499dfc98fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelAnimals/Assets/Models/Dog.fbx using Guid(23087f4be52d60c488a49d499dfc98fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13007ad443d1012bc3a473371fcaa593') in 0.103708 seconds 
+  Import took 0.108903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.342741 seconds.
+  path: Assets/VoxelAnimals/Demo/SimpleDemoScene.unity
+  artifactKey: Guid(6dd397a78744a584dbe80d2ea645110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelAnimals/Demo/SimpleDemoScene.unity using Guid(6dd397a78744a584dbe80d2ea645110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124fc2b16a87a8f1fe9c77bbf45c83ff') in 0.003254 seconds 
+  Import took 0.009645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.639560 seconds.
+  path: Assets/VoxelAnimals/Demo/FullDemoScene.unity
+  artifactKey: Guid(d1ef72e5d8af69d4a83525e0091b6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelAnimals/Demo/FullDemoScene.unity using Guid(d1ef72e5d8af69d4a83525e0091b6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1939bf07261dbfaea1300a9b8749e9b2') in 0.002237 seconds 
+  Import took 0.009222 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004127 seconds.
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 3.67 ms, found 2 plugins.
 =======
@@ -1201,10 +1905,16 @@ Domain Reload Profiling:
 	ReloadAssembly (1874ms)
 		BeginReloadAssembly (235ms)
 =======
+=======
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 - Completed reload, in  1.475 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1475ms)
 		BeginReloadAssembly (161ms)
+<<<<<<< HEAD
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
@@ -1670,9 +2380,33 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (1ms)
+=======
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (1240ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (438ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (406ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (42ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3176 Unused Serialized files (Serialized files now loaded: 0)
@@ -1681,6 +2415,16 @@ System memory in use after: 282.0 MB.
 
 Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 3754.
 Total: 8.309581 ms (FindLiveObjects: 0.817132 ms CreateObjectMapping: 0.275967 ms MarkObjects: 5.316389 ms  DeleteObjects: 1.896874 ms)
+=======
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 305.3 MB.
+System memory in use after: 305.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3447.
+Total: 3.274715 ms (FindLiveObjects: 0.291774 ms CreateObjectMapping: 0.088571 ms MarkObjects: 2.865710 ms  DeleteObjects: 0.027305 ms)
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1692,6 +2436,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 161.547838 seconds.
@@ -1700,6 +2445,9 @@ Received Import Request.
 Start importing Assets/Runemark Studio/Origami Pack/Scenes/DemoScene.unity using Guid(13103e1b8f3c93d4a9f3f5202e301db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40367133c3d5914128e3bd7d5adcab4') in 0.015513 seconds 
   Import took 0.022746 seconds .
 
+=======
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)

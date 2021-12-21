@@ -1,6 +1,10 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Runemark Studio/Origami Pack/Scenes/DemoScene.unity
+=======
+- path: Assets/VoxelAnimals/Demo/FullDemoScene.unity
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
 - path: Assets/VoxelAnimals/Demo/FullDemoScene.unity
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)

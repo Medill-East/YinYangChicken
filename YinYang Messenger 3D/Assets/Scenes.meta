@@ -1,8 +1,12 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 131a6b21c8605f84396be9f6751fb6e3
 =======
 guid: 801aa377a8dad4e1daa172740159b16d
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
+=======
+guid: 2c936b9f658e245b08d487aa1090faab
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
 folderAsset: yes
 DefaultImporter:

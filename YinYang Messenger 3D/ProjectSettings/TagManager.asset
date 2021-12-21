@@ -4,8 +4,12 @@
 TagManager:
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   tags:
   - TutorialRequirement
+=======
+  tags: []
+>>>>>>> parent of e7bfe52a (update player movement and dog controller)
 =======
   tags: []
 >>>>>>> parent of e7bfe52a (update player movement and dog controller)
