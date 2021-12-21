@@ -4,10 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - PatrolPoint
-  - Yang
-  - Yin
-  - DogDetector
+  - TutorialRequirement
   layers:
   - Default
   - TransparentFX
@@ -15,8 +12,8 @@ TagManager:
   - 
   - Water
   - UI
-  - DogDetector
-  - Player
+  - 
+  - 
   - 
   - 
   - 

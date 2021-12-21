@@ -44,7 +44,10 @@ public class DogController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-
+        if(collision.gameObject.tag == "Yang")
+        {
+            Kill(collision.gameObject);
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -120,5 +123,10 @@ public class DogController : MonoBehaviour
     public void Escape(GameObject target)
     {
         
+    }
+
+    public void Kill(GameObject target)
+    {
+        Destroy(target);
     }
 }
