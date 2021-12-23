@@ -128,5 +128,7 @@ public class DogController : MonoBehaviour
     public void Kill(GameObject target)
     {
         Destroy(target);
+        GameObject gameController = GameObject.FindGameObjectWithTag("GameController");
+        gameController.GetComponent<GameController>().Death();
     }
 }

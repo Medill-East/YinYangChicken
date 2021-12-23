@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637756464030000000
-    m_Hash: 4186148941
+      ticks: 637757226400000000
+    m_Hash: 1336781707
   m_LockFileStatus:
     m_FilePath: /Users/MedillEast/iCloud Drive (Archive)/Documents/Project/Unity/Unity
       Learn/20211221 YinYangChicken/Packages/packages-lock.json
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637756464030000000
-    m_Hash: 3552582063
+      ticks: 637757226400000000
+    m_Hash: 3540415600
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -125,13 +125,13 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.cinemachine@2.6.4
+    - packageId: com.unity.cinemachine@2.6.11
       testable: 0
       isDirectDependency: 1
-      version: 2.6.4
+      version: 2.6.11
       source: 1
       resolvedPath: /Users/MedillEast/iCloud Drive (Archive)/Documents/Project/Unity/Unity
-        Learn/20211221 YinYangChicken/Library/PackageCache/com.unity.cinemachine@2.6.4
+        Learn/20211221 YinYangChicken/Library/PackageCache/com.unity.cinemachine@2.6.11
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
       displayName: Cinemachine
@@ -275,13 +275,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637523747250000000
+      datePublishedTicks: 637715450880000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.cinemachine.git
-        revision: e272fa7acbab235a840c4e766b8e6099fa5cd76c
+        url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
+        revision: 0eef4802dbe9ea60fc58767471ce4c5ea86632de
         path: 
     - packageId: com.unity.collab-proxy@1.13.5
       testable: 0
