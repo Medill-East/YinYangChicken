@@ -99,7 +99,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 8
   m_CollisionDetection: 0
 --- !u!65 &180868859006578952
 BoxCollider:
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolCenter: {fileID: 0}
-  movementSpeed: 3
+  movementSpeed: 8
   turnRight: 0
   isPatrolling: 0
   isChasing: 0

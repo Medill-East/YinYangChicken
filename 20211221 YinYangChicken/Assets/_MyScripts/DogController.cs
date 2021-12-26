@@ -10,7 +10,7 @@ public class DogController : MonoBehaviour
 
     public bool turnRight;
 
-    public bool isPatrolling;
+    //public bool isPatrolling;
     public bool isChasing;
 
     public static Vector3 moveDirection;
@@ -21,7 +21,7 @@ public class DogController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isPatrolling = true;
+        //isPatrolling = true;
         isChasing = false;
 
         Vector3 newDirection;
@@ -32,14 +32,17 @@ public class DogController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isChasing == false)
-        {
-            Patrol();
-        }
-        else if (isChasing)
-        {
-            Move(moveDirection);
-        }
+        //if (isChasing == false)
+        //{
+        //    Patrol();
+        //}
+        //else if (isChasing)
+        //{
+        //    Move(moveDirection);
+        //}
+
+        // wait to chase
+
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -61,35 +64,11 @@ public class DogController : MonoBehaviour
             Vector3 newDirection;
             newDirection = patrolCenter.transform.position - transform.position;
             Move(newDirection);
-
-            //Debug.Log("turnright state " + turnRight);
-
-            //if (turnRight == true)
-            //{
-            //    turnRight = false;
-            //}
-            //else if (turnRight == false)
-            //{
-            //    turnRight = true;
-            //}
         }
     }
 
     void Move(Vector3 newDirection)
     {
-        //if (newDirection == DogController.moveRight)
-        //{
-        //    moveDirection = moveRight;
-        //}
-        //else if (newDirection == moveLeft)
-        //{
-        //    moveDirection = moveLeft;
-        //}
-        //else
-        //{
-        //    moveDirection = newDirection;
-        //}
-
         moveDirection = newDirection;
         transform.Translate(moveDirection.normalized * movementSpeed * Time.deltaTime, Space.World);
     }
@@ -97,20 +76,13 @@ public class DogController : MonoBehaviour
     void Patrol()
     {
         Move(moveDirection);
-
-        //if (turnRight == true)
-        //{
-        //    Move(moveRight);
-        //}
-        //else if (turnRight == false)
-        //{
-        //    Move(moveLeft);
-        //}
     }
 
     public void Chase(GameObject target)
     {
         isChasing = true;
+        //isPatrolling = false;
+
         Vector3 newDirection;
         newDirection = target.transform.position - transform.position;
 
@@ -122,7 +94,13 @@ public class DogController : MonoBehaviour
 
     public void Escape(GameObject target)
     {
+        Vector3 newDirection;
+        newDirection = transform.position - target.transform.position;
 
+        // move toward target
+        Move(newDirection);
+
+        Debug.Log("Dog escaping!");
     }
 
     public void Kill(GameObject target)

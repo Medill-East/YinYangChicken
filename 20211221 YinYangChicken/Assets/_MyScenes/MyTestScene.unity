@@ -378,6 +378,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5610584025688323193, guid: 0e8342084aaf947d49bc0bf2e30eab31, type: 3}
   m_PrefabInstance: {fileID: 5610584023963261964}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1917732339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315798993522781825, guid: 2a2c6906201514e5c9f2e07b8f1f41df, type: 3}
+  m_PrefabInstance: {fileID: 3315474380318318899}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &1926194749 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 7154046962156698567, guid: b10beef45a3ef45348f7db7605dc3ecb, type: 3}
@@ -495,6 +500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dog
       objectReference: {fileID: 0}
+    - target: {fileID: 180868859006578966, guid: 86da3396eea1247bbbcc0ffe0dffcea6, type: 3}
+      propertyPath: m_Constraints
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 180868859006578967, guid: 86da3396eea1247bbbcc0ffe0dffcea6, type: 3}
       propertyPath: patrolCenter
       value: 
@@ -509,11 +518,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 185739846302343275, guid: 86da3396eea1247bbbcc0ffe0dffcea6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.65
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 185739846302343275, guid: 86da3396eea1247bbbcc0ffe0dffcea6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.33
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 185739846302343275, guid: 86da3396eea1247bbbcc0ffe0dffcea6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -570,7 +579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3319929142773410023, guid: 2a2c6906201514e5c9f2e07b8f1f41df, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.33
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3319929142773410023, guid: 2a2c6906201514e5c9f2e07b8f1f41df, type: 3}
       propertyPath: m_LocalRotation.w
@@ -578,15 +587,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3319929142773410023, guid: 2a2c6906201514e5c9f2e07b8f1f41df, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3319929142773410023, guid: 2a2c6906201514e5c9f2e07b8f1f41df, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3319929142773410023, guid: 2a2c6906201514e5c9f2e07b8f1f41df, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3319929142773410023, guid: 2a2c6906201514e5c9f2e07b8f1f41df, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -614,6 +623,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5228266517786827637, guid: b31895d607b6d4a3ba58eb1a29b7acb9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228266517786827637, guid: b31895d607b6d4a3ba58eb1a29b7acb9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.04
+      objectReference: {fileID: 0}
     - target: {fileID: 5228266518419550823, guid: b31895d607b6d4a3ba58eb1a29b7acb9, type: 3}
       propertyPath: m_Name
       value: RespawnPoints
@@ -671,6 +688,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5573344172787032918, guid: c16f60020a0f6494a89f8b9abd3d6d06, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5573344174497705792, guid: c16f60020a0f6494a89f8b9abd3d6d06, type: 3}
       propertyPath: m_Name
       value: PatrolPoints
@@ -750,11 +771,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5610584025688323195, guid: 0e8342084aaf947d49bc0bf2e30eab31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.81
+      value: 6.81
       objectReference: {fileID: 0}
     - target: {fileID: 5610584025688323195, guid: 0e8342084aaf947d49bc0bf2e30eab31, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.67
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 5610584025688323195, guid: 0e8342084aaf947d49bc0bf2e30eab31, type: 3}
       propertyPath: m_LocalRotation.w
@@ -797,6 +818,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yin
       objectReference: {fileID: 0}
+    - target: {fileID: 8506955001821604307, guid: 8851d40e06abe4a44baaecccc11c7f23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8509572293393067957, guid: 8851d40e06abe4a44baaecccc11c7f23, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -811,7 +836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8509572293393067957, guid: 8851d40e06abe4a44baaecccc11c7f23, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.33
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8509572293393067957, guid: 8851d40e06abe4a44baaecccc11c7f23, type: 3}
       propertyPath: m_LocalRotation.w
@@ -906,6 +931,18 @@ PrefabInstance:
       propertyPath: deathPanel
       value: 
       objectReference: {fileID: 1014867486}
+    - target: {fileID: 6687449461656199337, guid: 1ce114de3b60a4ce59641a00827b02a9, type: 3}
+      propertyPath: yangPrefab
+      value: 
+      objectReference: {fileID: 3315798993522781825, guid: 2a2c6906201514e5c9f2e07b8f1f41df, type: 3}
+    - target: {fileID: 6687449461656199337, guid: 1ce114de3b60a4ce59641a00827b02a9, type: 3}
+      propertyPath: yinInScene
+      value: 
+      objectReference: {fileID: 3315798993141346100}
+    - target: {fileID: 6687449461656199337, guid: 1ce114de3b60a4ce59641a00827b02a9, type: 3}
+      propertyPath: yangInScene
+      value: 
+      objectReference: {fileID: 1917732339}
     - target: {fileID: 6687449461656199337, guid: 1ce114de3b60a4ce59641a00827b02a9, type: 3}
       propertyPath: respawnPoints
       value: 
@@ -1038,11 +1075,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7154046962156698564, guid: b10beef45a3ef45348f7db7605dc3ecb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.81
+      value: 6.81
       objectReference: {fileID: 0}
     - target: {fileID: 7154046962156698564, guid: b10beef45a3ef45348f7db7605dc3ecb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.67
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 7154046962156698564, guid: b10beef45a3ef45348f7db7605dc3ecb, type: 3}
       propertyPath: m_LocalRotation.w

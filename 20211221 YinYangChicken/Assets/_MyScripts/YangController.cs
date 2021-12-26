@@ -36,6 +36,19 @@ public class YangController : MonoBehaviour
         float moveVertical = Input.GetAxisRaw("Vertical");
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, 0.0f);
+<<<<<<< Updated upstream
+=======
+
+        // control rotation
+        if (moveHorizontal < 0)
+        {
+            transform.rotation = Quaternion.Euler(0, 180f, 0f);
+        }
+        else if(moveHorizontal > 0)
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0f);
+        }
+>>>>>>> Stashed changes
 
         if (movement != Vector3.zero)
         {
@@ -60,15 +73,15 @@ public class YangController : MonoBehaviour
     public void BecomeYin()
     {
         GameObject gameController = GameObject.FindWithTag("GameController");
-        GameObject yin = gameController.GetComponent<GameController>().yin;
-        GameObject yang = gameController.GetComponent<GameController>().yang;
+        GameObject yin = gameController.GetComponent<GameController>().yinInScene;
+        GameObject yang = gameObject;
 
-        // stop the movement of the yang player
-        yang.GetComponent<YangController>().controlEnabled = false;
+        // stop the movement of this yang player
+        controlEnabled = false;
 
         // reset the position of the yin to a position in front of yang
         Vector3 yangPosition = yang.transform.position;
-        yin.transform.position = yangPosition + new Vector3(2, 2, 0);
+        yin.transform.position = yangPosition + new Vector3(3, 3, 0);
 
         // activate the yin player
         yin.gameObject.SetActive(true);

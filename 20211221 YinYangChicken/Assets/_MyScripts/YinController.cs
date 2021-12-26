@@ -33,36 +33,41 @@ public class YinController : MonoBehaviour
         float moveHorizontal = Input.GetAxisRaw("Horizontal");
         float moveVertical = Input.GetAxisRaw("Vertical");
 
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0.0f);
+
+        // control rotation
+        if (moveHorizontal < 0)
+        {
+            transform.rotation = Quaternion.Euler(0, 180f, 0f);
+        }
+        else if (moveHorizontal > 0)
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0f);
+        }
+
 
         if (movement != Vector3.zero)
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), 0.15f);
-            anim.SetInteger("Walk", 1);
+            //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), 0.15f);
+            //anim.SetInteger("Walk", 1);
         }
         else
         {
-            anim.SetInteger("Walk", 0);
+            //anim.SetInteger("Walk", 0);
         }
 
         transform.Translate(movement * movementSpeed * Time.deltaTime, Space.World);
 
-        if (Input.GetButtonDown("Jump") && Time.time > canJump)
-        {
-            rb.AddForce(0, jumpForce, 0);
-            canJump = Time.time + timeBeforeNextJump;
-            anim.SetTrigger("jump");
-        }
     }
 
     public void BecomeYang()
     {
         GameObject gameController = GameObject.FindWithTag("GameController");
-        GameObject yin = gameController.GetComponent<GameController>().yin;
-        GameObject yang = gameController.GetComponent<GameController>().yang;
+        GameObject yin = gameObject;
+        GameObject yang = gameController.GetComponent<GameController>().yangInScene;
 
-        // stop the movement of the yin player
-        yin.GetComponent<YinController>().controlEnabled = false;
+        // stop the movement of this yin player
+        controlEnabled = false;
 
         // activate the yang player
         yang.gameObject.SetActive(true);

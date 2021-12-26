@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2577562349104df0a9aedeced9c9d55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yin: {fileID: 0}
+  yin: {fileID: 8506955001821604307, guid: 8851d40e06abe4a44baaecccc11c7f23, type: 3}
   yang: {fileID: 3315798993522781825, guid: 2a2c6906201514e5c9f2e07b8f1f41df, type: 3}
   cmvCam: {fileID: 0}
   deathPanel: {fileID: 0}

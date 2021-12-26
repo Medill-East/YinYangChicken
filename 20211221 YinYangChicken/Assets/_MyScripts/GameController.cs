@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public GameObject yin;
-    public GameObject yang;
+    public GameObject yinInScene;
+    public GameObject yangInScene;
+    public GameObject yangPrefab;
 
     public GameObject cmvCam;
 
@@ -24,7 +25,7 @@ public class GameController : MonoBehaviour
         isGameOver = false;
 
 
-        yangColor = yang.GetComponent<MeshRenderer>().sharedMaterial.color;
+        yangColor = yangPrefab.GetComponent<MeshRenderer>().sharedMaterial.color;
     }
 
     // Update is called once per frame
@@ -54,7 +55,8 @@ public class GameController : MonoBehaviour
         deathPanel.SetActive(false);
         isGameOver = false;
         Vector3 respawnPosition = respawnPoints.GetComponent<RespawnController>().respawnPoints[0].gameObject.transform.position;
-        GameObject newYang = Instantiate(yang, respawnPosition, Quaternion.identity);
+        GameObject newYang = Instantiate(yangPrefab, respawnPosition, Quaternion.identity);
+        yangInScene = newYang;
         cmvCam.GetComponent<CameraFollow>().ChangeFollow("Yang");
     }
 
@@ -63,7 +65,7 @@ public class GameController : MonoBehaviour
         // visual effect
         //level.GetComponent<Tilemap>().color = Color.grey;
         // become yin
-        yang.GetComponent<YangController>().BecomeYin();
+        yangInScene.GetComponent<YangController>().BecomeYin();
         // change the camera to follow yin
         cmvCam.GetComponent<CameraFollow>().ChangeFollow("Yin");
     }
@@ -73,7 +75,7 @@ public class GameController : MonoBehaviour
         // visual effect
         //level.GetComponent<Tilemap>().color = yangColor;
         // become yang
-        yin.GetComponent<YinController>().BecomeYang();
+        yinInScene.GetComponent<YinController>().BecomeYang();
         // change the camera to follow yang
         cmvCam.GetComponent<CameraFollow>().ChangeFollow("Yang");
     }

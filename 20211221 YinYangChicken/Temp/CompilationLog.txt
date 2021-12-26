@@ -1,2 +1,6 @@
 # Starting compiling Assembly-CSharp.dll
+<<<<<<< Updated upstream
 /Applications/Unity/2020.3.21f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-0c6d3e2acac824afd8edb8dc9a1fca70
+=======
+/Applications/Unity/2020.3.21f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-640d67c023aac40608de1a715c3b73a4
+>>>>>>> Stashed changes

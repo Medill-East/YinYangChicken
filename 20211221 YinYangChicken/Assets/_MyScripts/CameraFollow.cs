@@ -24,8 +24,8 @@ public class CameraFollow : MonoBehaviour
     {
         CinemachineVirtualCamera virtualCamera = gameObject.GetComponent<CinemachineVirtualCamera>();
 
-        yin = GameObject.FindWithTag("Yin");
-        yang = GameObject.FindWithTag("Yang");
+        yin = GameObject.FindGameObjectWithTag("Yin");
+        yang = GameObject.FindGameObjectWithTag("Yang");
 
         //Debug.Log("found yin: " + yin.name);
         switch (whichToFollow)

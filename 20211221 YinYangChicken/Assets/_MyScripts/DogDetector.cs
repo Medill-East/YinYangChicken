@@ -19,17 +19,18 @@ public class DogDetector : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         Debug.Log("Dog Detector found " + other.gameObject.name);
 
         if (other.gameObject.tag == "Yang")
         {
-            Debug.Log("Dog prepaer to chase!");
+            Debug.Log("Dog prepare to chase!");
             dog.GetComponent<DogController>().Chase(other.gameObject);
         }
         else if (other.gameObject.tag == "Yin")
         {
+            Debug.Log("Dog prepare to escape!");
             dog.GetComponent<DogController>().Escape(other.gameObject);
         }
     }
@@ -40,6 +41,8 @@ public class DogDetector : MonoBehaviour
         {
             Debug.Log("Dog not to chase!");
             transform.parent.gameObject.GetComponent<DogController>().isChasing = false;
+            //transform.parent.gameObject.GetComponent<DogController>().isPatrolling = true;
+
         }
     }
 
