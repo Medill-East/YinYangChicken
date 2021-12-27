@@ -99,7 +99,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 8
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!65 &180868859006578952
 BoxCollider:
@@ -129,7 +129,6 @@ MonoBehaviour:
   patrolCenter: {fileID: 0}
   movementSpeed: 8
   turnRight: 0
-  isPatrolling: 0
   isChasing: 0
 --- !u!1 &180868859520614520
 GameObject:

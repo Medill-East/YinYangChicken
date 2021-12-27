@@ -23,16 +23,17 @@ public class DogDetector : MonoBehaviour
     {
         Debug.Log("Dog Detector found " + other.gameObject.name);
 
-        if (other.gameObject.tag == "Yang")
-        {
-            Debug.Log("Dog prepare to chase!");
-            dog.GetComponent<DogController>().Chase(other.gameObject);
-        }
-        else if (other.gameObject.tag == "Yin")
+        if (other.gameObject.tag == "Yin")
         {
             Debug.Log("Dog prepare to escape!");
             dog.GetComponent<DogController>().Escape(other.gameObject);
         }
+        else if (other.gameObject.tag == "Yang")
+        {
+            Debug.Log("Dog prepare to chase!");
+            dog.GetComponent<DogController>().Chase(other.gameObject);
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
