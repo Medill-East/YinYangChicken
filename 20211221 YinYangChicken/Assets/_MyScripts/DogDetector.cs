@@ -21,7 +21,7 @@ public class DogDetector : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log("Dog Detector found " + other.gameObject.name);
+        //Debug.Log("Dog Detector found " + other.gameObject.name);
 
         if (other.gameObject.tag == "Yin")
         {

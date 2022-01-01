@@ -12,10 +12,13 @@ public class DogController : MonoBehaviour
 
     //public bool isPatrolling;
     public bool isChasing;
+    public bool isBacking;
 
     public static Vector3 moveDirection;
     private static Vector3 moveLeft = new Vector3(-1f, 0f, 0f);
     private static Vector3 moveRight = new Vector3(1f, 0f, 0f);
+
+    private Rigidbody rb;
 
 
     // Start is called before the first frame update
@@ -23,10 +26,13 @@ public class DogController : MonoBehaviour
     {
         //isPatrolling = true;
         isChasing = false;
+        isBacking = false;
 
         Vector3 newDirection;
         newDirection = patrolCenter.transform.position - transform.position;
         moveDirection = newDirection;
+
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -43,6 +49,27 @@ public class DogController : MonoBehaviour
 
         // wait to chase
 
+        if (isBacking)
+        {
+            GoBack();
+            float distance = gameObject.transform.position.x - patrolCenter.transform.position.x;
+            if(MyApproximation(gameObject.transform.position.x,
+                                patrolCenter.transform.position.x,
+                                0.1f)
+                               )
+            {
+                isBacking = false;
+                gameObject.transform.position = new Vector3(patrolCenter.transform.position.x,
+                                                            gameObject.transform.position.y,
+                                                            gameObject.transform.position.z);
+            }
+        }
+
+    }
+
+    private bool MyApproximation(float a, float b, float tolerance)
+    {
+        return (Mathf.Abs(a - b) < tolerance);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -55,15 +82,29 @@ public class DogController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log(other.gameObject.name);
-        Debug.Log(other.gameObject.tag);
+        //Debug.Log(other.gameObject.name);
+        //Debug.Log(other.gameObject.tag);
 
         // if exit patrol range, then go back
         if (other.gameObject.tag == "PatrolPoint")
         {
-            Vector3 newDirection;
-            newDirection = patrolCenter.transform.position - transform.position;
-            Move(newDirection);
+            Debug.Log("Dog prepare to go back!");
+            isBacking = true;
+
+
+            //// dog located at the right of patrolcenter
+            //// move left
+            //if(distance > 0.5f)
+            //{
+            //    rb.velocity = new Vector3(-5f, 0, 0);
+            //}
+            //// dog located at the left of patrolcenter
+            //// move right
+            //else if(distance < -0.5f)
+            //{
+            //    rb.velocity = new Vector3(5f, 0, 0);
+            //}
+
         }
     }
 
@@ -76,6 +117,14 @@ public class DogController : MonoBehaviour
     void Patrol()
     {
         Move(moveDirection);
+    }
+
+    public void GoBack()
+    {
+        Vector3 newDirection;
+        newDirection = patrolCenter.transform.position - transform.position;       
+        Move(newDirection);
+        Debug.Log("Dog backing to patrol center!");
     }
 
     public void Chase(GameObject target)

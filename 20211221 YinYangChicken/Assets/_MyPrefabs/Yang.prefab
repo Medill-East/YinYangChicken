@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4736899788609540512}
   - component: {fileID: 4736899788609540573}
   - component: {fileID: 6760920470062508836}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Yang
   m_TagString: Yang
   m_Icon: {fileID: 0}
