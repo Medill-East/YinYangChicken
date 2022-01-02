@@ -48,11 +48,11 @@ public class DogController : MonoBehaviour
         //}
 
         // wait to chase
-
-        if (isBacking)
+        if (isBacking && !isChasing)
         {
             GoBack();
-            float distance = gameObject.transform.position.x - patrolCenter.transform.position.x;
+
+            // if back to patrol center, stay
             if(MyApproximation(gameObject.transform.position.x,
                                 patrolCenter.transform.position.x,
                                 0.1f)
@@ -74,6 +74,7 @@ public class DogController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        // if chased yang, kill
         if (collision.gameObject.tag == "Yang")
         {
             Kill(collision.gameObject);
@@ -130,7 +131,6 @@ public class DogController : MonoBehaviour
     public void Chase(GameObject target)
     {
         isChasing = true;
-        //isPatrolling = false;
 
         Vector3 newDirection;
         newDirection = target.transform.position - transform.position;
