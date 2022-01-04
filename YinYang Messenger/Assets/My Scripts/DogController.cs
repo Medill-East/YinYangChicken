@@ -13,12 +13,14 @@ public class DogController : MonoBehaviour
     //public bool isPatrolling;
     public bool isChasing;
     public bool isBacking;
+    public bool isEscaping;
 
     public static Vector3 moveDirection;
     private static Vector3 moveLeft = new Vector3(-1f, 0f, 0f);
     private static Vector3 moveRight = new Vector3(1f, 0f, 0f);
 
     private Rigidbody rb;
+    private MeshRenderer meshRenderer;
 
 
     // Start is called before the first frame update
@@ -27,12 +29,17 @@ public class DogController : MonoBehaviour
         //isPatrolling = true;
         isChasing = false;
         isBacking = false;
+        isEscaping = false;
 
         Vector3 newDirection;
         newDirection = patrolCenter.transform.position - transform.position;
         moveDirection = newDirection;
 
         rb = GetComponent<Rigidbody>();
+
+        meshRenderer = GetComponent<MeshRenderer>();
+        meshRenderer.sortingLayerName = "Default";
+        meshRenderer.sortingOrder = 99;
     }
 
     // Update is called once per frame
@@ -47,7 +54,7 @@ public class DogController : MonoBehaviour
         //    Move(moveDirection);
         //}
 
-        AdjustRotation();
+        //AdjustRotation();
 
         // wait to chase
         if (isBacking && !isChasing)
@@ -109,18 +116,20 @@ public class DogController : MonoBehaviour
             //}
 
         }
+
+
     }
 
-    void AdjustRotation()
+    void AdjustRotation(Vector3 targetPosition)
     {
-        float moveDirection = transform.localPosition.x;
+        float moveDirectionOld = transform.position.x;
 
         // control rotation
-        if (moveDirection < 0)
+        if (targetPosition.x < moveDirectionOld)
         {
             transform.rotation = Quaternion.Euler(0, 180f, 0f);
         }
-        else if (moveDirection > 0)
+        else if (targetPosition.x > moveDirectionOld)
         {
             transform.rotation = Quaternion.Euler(0, 0, 0f);
         }
@@ -130,6 +139,7 @@ public class DogController : MonoBehaviour
     {
         moveDirection = newDirection;
         transform.Translate(moveDirection.normalized * movementSpeed * Time.deltaTime, Space.World);
+        AdjustRotation(newDirection);
     }
 
     void Patrol()
@@ -147,15 +157,19 @@ public class DogController : MonoBehaviour
 
     public void Chase(GameObject target)
     {
-        isChasing = true;
+        if(!isEscaping)
+        {
+            isChasing = true;
 
-        Vector3 newDirection;
-        newDirection = target.transform.position - transform.position;
+            Vector3 newDirection;
+            newDirection = target.transform.position - transform.position;
 
-        // move toward target
-        Move(newDirection);
+            // move toward target
+            Move(newDirection);
 
-        Debug.Log("Dog chasing!");
+            Debug.Log("Dog chasing!");
+        }
+
     }
 
     public void Escape(GameObject target)
@@ -165,6 +179,8 @@ public class DogController : MonoBehaviour
 
         // move toward target
         Move(newDirection);
+
+        isEscaping = true;
 
         Debug.Log("Dog escaping!");
     }

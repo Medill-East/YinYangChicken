@@ -45,6 +45,12 @@ public class DogDetector : MonoBehaviour
             //transform.parent.gameObject.GetComponent<DogController>().isPatrolling = true;
 
         }
+
+        if (other.gameObject.tag == "Yin")
+        {
+            Debug.Log("Dog Prepare to not escape!");
+            transform.parent.gameObject.GetComponent<DogController>().isEscaping = false;
+        }
     }
 
 

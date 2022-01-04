@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class GameController : MonoBehaviour
     public bool isYang;
 
     private Color yangColor;
+    private string SceneName; //场景名称
+    private int index; //场景序号
 
     // Start is called before the first frame update
     void Start()
@@ -50,14 +53,24 @@ public class GameController : MonoBehaviour
         isGameOver = true;
     }
 
+    private string GetScene()//调用此函数获得场景信息
+    {
+        SceneName = SceneManager.GetActiveScene().name;//获取场景名称
+        index = SceneManager.GetActiveScene().buildIndex;//获取场景所在序号
+        return SceneName;
+    }
+
     public void Restart()
     {
-        deathPanel.SetActive(false);
-        isGameOver = false;
-        Vector3 respawnPosition = respawnPoints.GetComponent<RespawnController>().respawnPoints[0].gameObject.transform.position;
-        GameObject newYang = Instantiate(yangPrefab, respawnPosition, Quaternion.identity);
-        yangInScene = newYang;
-        cmvCam.GetComponent<CameraFollow>().ChangeFollow("Yang");
+        //deathPanel.SetActive(false);
+        //isGameOver = false;
+        //Vector3 respawnPosition = respawnPoints.GetComponent<RespawnController>().respawnPoints[0].gameObject.transform.position;
+        //GameObject newYang = Instantiate(yangPrefab, respawnPosition, Quaternion.identity);
+        //yangInScene = newYang;
+        //cmvCam.GetComponent<CameraFollow>().ChangeFollow("Yang");
+
+        string sceneName = GetScene();
+        SceneManager.LoadScene(sceneName);
     }
 
     void BecomeYin()
